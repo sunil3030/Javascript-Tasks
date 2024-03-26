@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+}
+.container{
+    background-color: aqua;
+    margin: auto;
+    text-align: center;
+    min-height: 640px;
+}
+h1{
+    padding-top: 250px;
+    padding-bottom: 50px;
+    font-size: 60px;
+    color: red;
+}
+button{
+    padding: 10px;
+    background-color: brown;
+    color:white;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+}
+button:hover{
+    background-color: greenyellow;
+    /* border: 5px solid white; */
+}
